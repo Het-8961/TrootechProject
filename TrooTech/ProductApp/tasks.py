@@ -9,7 +9,7 @@ from  django.conf import settings
 def sendMailTask(self,fileName,duration=0):
    subject= 'Product data using Celery - TrootechProject'
    message= 'Please find attached sheet of Product data'
-   receiver= ['shet8961@gmail.com','shahsilvi06@gmail.com']
+   receiver= ['shet8961@gmail.com']
    #change here
    asyncio.run(mainCoroutine(duration, subject,message,receiver,fileName))
 
