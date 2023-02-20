@@ -71,7 +71,15 @@ DATABASES = {
        'PASSWORD': '1234',
        'HOST': '127.0.0.1',
        'PORT': '5432',
-   }
+   },
+   #  'default': {
+   #      'ENGINE': 'django.db.backends.postgresql',
+   #      'NAME': 'booking1676887963833qlrtfyelebrecozg',
+   #      'USER': 'tlfaqynlamuzejybwhgwwcli@psql-mock-database-cloud',
+   #      'PASSWORD': 'rueoytaeyhqbtqztvhzxbyat',
+   #      'HOST': 'psql-mock-database-cloud.postgres.database.azure.com',
+   #      'PORT': '5432',
+   #  }
 }
 
 
